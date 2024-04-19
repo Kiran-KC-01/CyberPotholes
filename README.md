@@ -14,7 +14,8 @@ Hence, a total of 24 reference RGB images taken of pothole defects in the field 
 ## Dataset Layout  
 The dataset within this repository is organised into depthmap images and their corresponding labels split into training, validation, and testing subsets. As shown in the following folder structure:
 
-`└───dataset
+```
+└───dataset
     ├───images
     │   ├───test
     │   ├───train
@@ -22,8 +23,9 @@ The dataset within this repository is organised into depthmap images and their c
     └───labels
         ├───test
         ├───train
-        └───val`
-        
+        └───val
+```
+
 This structure was chosen due to its convenience in being able to immediately be used in Machine Learning applications in a Google Colabs environment upon upload.
 
 The dataset contains the following:
