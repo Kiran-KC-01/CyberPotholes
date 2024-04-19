@@ -8,19 +8,30 @@ The 3D modelled pothole templates used to build the dataset are based on real wo
 3. Images taken from various locations in Western Sydney (3 images).
 All primary data was collected using a Pixel 3a XL phone camera.
 Hence, a total of 24 reference RGB images taken of pothole defects in the field were chosen in total.
+
 ![image](https://github.com/Kiran-KC-01/CyberPotholes/assets/167006792/8ced4733-0b45-4d5b-8b94-d3dfe2054b5d)
 
 ## Dataset Layout  
 The dataset within this repository is organised into depthmap images and their corresponding labels split into training, validation, and testing subsets. As shown in the following folder structure:
+
 └───dataset
+
     ├───images
+    
     │   ├───test
+    
     │   ├───train
+    
     │   └───val
+    
     └───labels
+    
         ├───test
+        
         ├───train
+        
         └───val
+        
 This structure was chosen due to its convenience in being able to immediately be used in Machine Learning applications in a Google Colabs environment upon upload.
 
 The dataset contains the following:
@@ -38,7 +49,7 @@ Found in the subfolders under "labels". These are .txt files containing the boun
 All bounding box dimensions are given as percentages, "width" and "height" are bounding box width and height relative to the image width and height, respectively.
 
 ### 3. Geometric Information: 
-Found in the file "potholeImageData.csv". This file contains selected metadata of each pothole defect across the entire dataset, identified by image index and folder subset. This metadata comprises pothole depth (m), estimated area (m^2), estimated volume (m^3), and its coordinates.
+Found in the file "potholeImageData.csv". This file contains selected metadata of each pothole defect across the entire dataset, identified by image index and folder subset. This metadata comprises pothole depth (m), estimated area (m<sup>2</sup>), estimated volume (m<sup>3</sup>), and its coordinates.
 
 ## Citation
 If you use this dataset, please consider citing:
