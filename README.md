@@ -47,4 +47,5 @@ Found in the file "potholeImageData.csv". This file contains selected metadata o
 
 ## Citation
 If you use this dataset, please consider citing:
+
 K.C. K., Balamurali M., (2023). Cyberpotholes Dataset. University of Sydney. Link to dataset.
