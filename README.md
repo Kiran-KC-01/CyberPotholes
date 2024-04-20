@@ -45,6 +45,10 @@ All bounding box dimensions are given as percentages, "width" and "height" are b
 ### 3. Geometric Information: 
 Found in the file "potholeImageData.csv". This file contains selected metadata of each pothole defect across the entire dataset, identified by image index and folder subset. This metadata comprises pothole depth (m), estimated area (m<sup>2</sup>), estimated volume (m<sup>3</sup>), and its coordinates.
 
+## Download Link
+Due to its large filesize, please find below a google drive link from where the dataset can be downloaded from:
+https://drive.google.com/file/d/1KWEgiOPMm2UVHl0dQiXFtN4Ud4AVCOn_/view?usp=drive_link
+
 ## Citation
 If you use this dataset, please consider citing:
 
