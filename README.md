@@ -55,4 +55,4 @@ https://drive.google.com/file/d/1KWEgiOPMm2UVHl0dQiXFtN4Ud4AVCOn_/view?usp=drive
 ## Citation
 If you use this dataset, please consider citing:
 
-K.C. K., Worrall S., Berrio J.S., Balamurali M., (2023). Cyberpotholes Dataset. University of Sydney. Link to dataset.
+K.C. K., Worrall S., Berrio J.S., Balamurali M., (2023). Cyberpotholes Dataset. University of Sydney. <*Link to dataset*>
