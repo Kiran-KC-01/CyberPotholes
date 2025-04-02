@@ -1,7 +1,10 @@
 # CyberPotholes - A Synthetic Labelled Pothole Depthmap Dataset
 This study proposes a novel approach in the exploration of automatically generating synthetic datasets to aid in pothole defect management for road maintenance using smart technologies of the 4th Industrial Revolution. Here, pothole defect templates (features of interest) are created in designated bounding boxes before program runtime, preventing the need for complex bounding box fitting operations during runtime.
 
-#### ***Download link:*** https://drive.google.com/file/d/1KWEgiOPMm2UVHl0dQiXFtN4Ud4AVCOn_/view?usp=drive_link
+# Download Link
+#### Due to its large filesize, please find below a google drive link to download the dataset as a .zip archive:
+
+https://drive.google.com/file/d/1KWEgiOPMm2UVHl0dQiXFtN4Ud4AVCOn_/view?usp=drive_link
 
 ## Primary Reference Data Collection
 The 3D modelled pothole templates used to build the dataset are based on real world potholes to ground the process, avoiding complete abstraction. Therefore, RGB images taken of potholes were selected from the following primary and secondary sources:
@@ -47,10 +50,7 @@ All bounding box dimensions are given as percentages, "width" and "height" are b
 ### 3. Geometric Information: 
 Found in the file "potholeImageData.csv". This file contains selected metadata of each pothole defect across the entire dataset, identified by image index and folder subset. This metadata comprises pothole depth (m), estimated area (m<sup>2</sup>), estimated volume (m<sup>3</sup>), and its coordinates.
 
-## Download Link
-Due to its large filesize, please find below a google drive link to download the dataset as a .zip archive:
-
-https://drive.google.com/file/d/1KWEgiOPMm2UVHl0dQiXFtN4Ud4AVCOn_/view?usp=drive_link
+#### ***Download link:*** https://drive.google.com/file/d/1KWEgiOPMm2UVHl0dQiXFtN4Ud4AVCOn_/view?usp=drive_link
 
 ## Citation
 If you use this dataset, please consider citing:
